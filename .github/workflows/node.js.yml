@@ -123,7 +123,7 @@ jobs:
         with:
           context: ./api  
           push: true
-          tags: myapp1/backend:latest
+          tags: bharatkarvekar/myapp1-backend:latest
           file: ./api/Dockerfile
 
   build_frontend_docker_image_and_push:
@@ -147,6 +147,6 @@ jobs:
         with:
           context: ./client
           push: true
-          tags: myapp1/frontend:latest
+          tags: bharatkarvekar/myapp1-frontend:latest
           file: ./client/Dockerfile
           
